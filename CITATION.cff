@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: Metabolismo Celular
+message: >-
+  Gemelos Digitales / Ingeniería Biomédica / Tecnológico
+  Nacional de México
+type: software
+authors:
+  - given-names: Ana Kamila
+    family-names: Valle
+    email: l22211769@tectijuana.edu.mx
+  - given-names: María Belén
+    family-names: Galindo
+    email: l22211755@tectijuana.edu.mx
+    affiliation: Tecnológico Nacional de México
+repository-code: 'https://github.com/AKamilaValle/ProyectoGD'
+keywords:
+  - Cinética Enzimática
+  - Sustrato
+  - Condiciones de Estabilidad
+  - Enzima
+  - Puntos de equilibrio
+license: BSD-2-Clause
+version: '1.0'
+date-released: '2026-05-17'
