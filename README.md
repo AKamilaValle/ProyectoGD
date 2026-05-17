@@ -27,11 +27,11 @@ Desarrollar y analizar un gemelo digital que emule la dinámica de una reacción
 - **z(t):** Concentración del Sustrato disponible (mM).
 El sistema se formula mediante las siguientes tres EDOs no lineales de primer orden:
  
-```
-dx/dt = a*x*z - b*x,   (1)
-dy/dt = c*y*z - d*y,   (2)
-dz/dt = -e*x*y*z,      (3)
-```
+$$\dot{x} = axz - bx, \tag{1}$$
+ 
+$$\dot{y} = cyz - dy, \tag{2}$$
+ 
+$$\dot{z} = -exyz, \tag{3}$$
  
 donde los parámetros del sistema definen la cinética de las interacciones metabólicas. En términos biológicos, *a* representa la afinidad y tasa de formación del complejo enzima-sustrato (x), mientras que *b* mide la velocidad de su disociación o pérdida. Por otro lado, *c* indica la eficiencia con la que el sustrato se transforma en el producto final (y), y *d* es la tasa de depuración o consumo de dicho producto. Finalmente, el parámetro *e* cuantifica el agotamiento constante del sustrato (z) derivado de la actividad conjunta del sistema.
  
