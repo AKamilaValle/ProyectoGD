@@ -35,7 +35,7 @@ donde los parámetros del sistema definen la cinética de las interacciones meta
  
 A través de la experimentación *in silico*, se busca predecir el comportamiento del biorreactor ante perturbaciones exógenas (inyección de sustrato) y analizar las condiciones que garantizan la estabilidad del metabolismo.
  
-Palabras clave: Cinética Enzimática; Sustrato; Condiciones de Estabilidad; Enzima; Puntos de equilibrio; Gemelo digital; Eureqa; Simulink.
+Palabras clave: Cinética Enzimática; Sustrato; Condiciones de Estabilidad; Enzima; Puntos de equilibrio.
  
 ## Actividades a realizar
 1. Procesamiento y normalización de datos experimentales asociados al metabolismo celular mediante suavizado gaussiano (`smoothdata`) y cálculo de bioestadísticos: Error estándar, margen de error, intervalos de confianza del 95%, valor P, coeficiente de determinación (R²), suma residual de cuadrados (RSS) y Criterio de Información de Akaike (AIC).
