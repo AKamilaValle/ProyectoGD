@@ -54,8 +54,8 @@ Palabras clave: Cinética Enzimática; Sustrato; Condiciones de Estabilidad; Enz
 3. Cálculo analítico y numérico de los tres puntos de equilibrio del sistema:
 $$
 \begin{aligned}
-\text{eq}_1&: (x^*, y^*, z^*) = \left(1, 0, \frac{b}{a}\right) && \text{— Inestable} \\
-\text{eq}_2&: (x^*, y^*, z^*) = \left(0, 1, \frac{d}{c}\right) && \text{— Caso marginal} \\
+\text{eq}_1&: (x^*, y^*, z^*) = \left(1, 0, \frac{b}{a}\right) && \text{— Inestable} \\\\
+\text{eq}_2&: (x^*, y^*, z^*) = \left(0, 1, \frac{d}{c}\right) && \text{— Caso marginal} \\\\
 \text{eq}_3&: (x^*, y^*, z^*) = (0, 0, 0) && \text{— Caso marginal}
 \end{aligned}
 $$
