@@ -76,6 +76,8 @@ Palabras clave: Cinética Enzimática; Sustrato; Condiciones de Estabilidad; Enz
 5. Diagrama biológico del sistema [.png].
 ## Referencias
 \[1] P. A. Valle, Syllabus para Gemelos Digitales, Tecnológico Nacional de México / Instituto Tecnológico de Tijuana, Tijuana, B.C., México, 2025. Permalink: https://biomath.xyz/course/
+
+\[2] Alberts, B., Johnson, A., Lewis, J., Morgan, D., Raff, M., Roberts, K., & Walter, P. (2016). Biología molecular de la célula (6.ª ed.). Ediciones Omega.
  
 
  
