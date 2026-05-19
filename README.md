@@ -41,8 +41,9 @@ $$
 $$
 
 donde los parámetros del sistema definen la cinética de las interacciones metabólicas. En términos biológicos, *a* representa la afinidad y tasa de formación del complejo enzima-sustrato (x), mientras que *b* mide la velocidad de su disociación o pérdida. Por otro lado, *c* indica la eficiencia con la que el sustrato se transforma en el producto final (y), y *d* es la tasa de depuración o consumo de dicho producto. Finalmente, el parámetro *e* cuantifica el agotamiento constante del sustrato (z) derivado de la actividad conjunta del sistema.
- <img width="720" height="504" alt="Metabolismo celular" src="https://github.com/user-attachments/assets/640fa24f-ab11-402c-9547-0de24c2fa18d" />
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/640fa24f-ab11-402c-9547-0de24c2fa18d" alt="Metabolismo celular" width="450" />
+</p>
 A través de la experimentación *in silico*, se busca predecir el comportamiento del biorreactor ante perturbaciones exógenas (inyección de sustrato) y analizar las condiciones que garantizan la estabilidad del metabolismo.
  
 Palabras clave: Cinética Enzimática; Sustrato; Condiciones de Estabilidad; Enzima; Puntos de equilibrio.
