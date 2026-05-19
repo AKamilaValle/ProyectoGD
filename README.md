@@ -52,9 +52,11 @@ Palabras clave: Cinética Enzimática; Sustrato; Condiciones de Estabilidad; Enz
 1. Procesamiento y normalización de datos experimentales asociados al metabolismo celular mediante suavizado gaussiano (`smoothdata`) y cálculo de bioestadísticos: Error estándar, margen de error, intervalos de confianza del 95%, valor P, coeficiente de determinación (R²), suma residual de cuadrados (RSS) y Criterio de Información de Akaike (AIC).
 2. Aplicación de regresión simbólica mediante el software Eureqa para la deducción y obtención de las ecuaciones diferenciales del modelo matemático no lineal, y ajuste de parámetros mediante la función `fitnlm` de MATLAB por mínimos cuadrados.
 3. Cálculo analítico y numérico de los tres puntos de equilibrio del sistema:
-| $\text{eq}_1$ | $\left(1,\ 0,\ \dfrac{b}{a}\right)$ | Inestable | \\
-| $\text{eq}_2$ | $\left(0,\ 1,\ \dfrac{d}{c}\right)$ | Caso marginal | \\
-| $\text{eq}_3$ | $(0,\ 0,\ 0)$ | Caso marginal | \\
+$$\text{eq}_1 : (x^{*}, y^{*}, z^{*}) = \left(1, 0, \frac{b}{a}\right) \quad \text{— Inestable}$$
+
+$$\text{eq}_2 : (x^{*}, y^{*}, z^{*}) = \left(0, 1, \frac{d}{c}\right) \quad \text{— Caso marginal}$$
+
+$$\text{eq}_3 : (x^{*}, y^{*}, z^{*}) = (0, 0, 0) \quad \text{— Caso marginal}$$
 4. Obtención de la Matriz Jacobiana y evaluación de los valores propios (eigenvalores) para determinar las condiciones de estabilidad local de cada punto de equilibrio.
 5. Construcción del diagrama de bloques en Simulink para integrar las ecuaciones diferenciales del sistema en lazo cerrado, empleando el solver `ode23t` con paso máximo de 1E-3.
 6. Implementación de una señal de control externa (tipo Step / Pulse Generator) para simular la inyección y perturbación del sustrato (U) en el biorreactor.
