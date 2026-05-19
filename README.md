@@ -52,7 +52,7 @@ Palabras clave: Cinética Enzimática; Sustrato; Condiciones de Estabilidad; Enz
 1. Procesamiento y normalización de datos experimentales asociados al metabolismo celular mediante suavizado gaussiano (`smoothdata`) y cálculo de bioestadísticos: Error estándar, margen de error, intervalos de confianza del 95%, valor P, coeficiente de determinación (R²), suma residual de cuadrados (RSS) y Criterio de Información de Akaike (AIC).
 2. Aplicación de regresión simbólica mediante el software Eureqa para la deducción y obtención de las ecuaciones diferenciales del modelo matemático no lineal, y ajuste de parámetros mediante la función `fitnlm` de MATLAB por mínimos cuadrados.
 3. Cálculo analítico y numérico de los tres puntos de equilibrio del sistema:
-	$$
+$$
 \begin{aligned}
 \text{eq}_1&: (x^*, y^*, z^*) = \left(1, 0, \frac{b}{a}\right) && \text{— Inestable} \\
 \text{eq}_2&: (x^*, y^*, z^*) = \left(0, 1, \frac{d}{c}\right) && \text{— Caso marginal} \\
